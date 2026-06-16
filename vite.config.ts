@@ -5,6 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/Sys2Switch/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
